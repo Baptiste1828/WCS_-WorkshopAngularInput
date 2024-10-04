@@ -1,0 +1,5 @@
+<div class="buttonBlock">
+    <label for="newBackground">Changer fond du bouton :</label>
+    <input type="text" name="newBackground" id="newBackground" [(ngModel)]="newBackground">
+    <button [ngStyle]="{'background': background}" (click)="changeBackground()">Coucou</button>
+</div>
